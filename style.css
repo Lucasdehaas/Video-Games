@@ -1,0 +1,99 @@
+/* style the top navigation bar*/
+.topnav
+{ overflow: hidden;
+  background-color: rgb(58, 58, 58);
+width: 21.65%; 
+}
+/* Style the topnav links */
+.topnav a {
+  float: center;
+  display: block;
+  color: #ffffff;
+  text-align: left;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+header {
+  text-align: center;
+color: white;}
+
+/* tekst */
+.tekst{font-size: 14px;}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+    text-align: justify;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color:rgb(58, 58, 58);
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ffffff;
+}
+
+nav li a.active {
+    background-color: skyblue;
+}
+/* plaatjes en achtergrond */
+body{ background-image: url("afbeelding/achtergrond.jpg") ;
+background-repeat:no-repeat;
+background-size: cover;
+background-size: 120%}
+
+.sony1{ float: left;
+margin-right: 15px;
+margin: 5 auto;
+width: 300px;
+position:relative;
+height: 200px ;}
+
+.microsoft1{ float: left;
+margin-right: 15px;
+margin: 5 auto;
+width: 300px;
+position:relative;
+height: 200px ;}
+
+
+.nintendo1{ float: left;
+margin-right: 15px;
+margin: 5 auto;
+width: 300px;
+position:relative;
+height: 175px ;
